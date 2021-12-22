@@ -1,0 +1,366 @@
+.btn {
+  line-height: 38px;
+  border: 2px solid #fc427f;
+  background-color: #fc427f;
+  color: #fff;
+  padding: 0 29px;
+  border-radius: 21px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  font-size: 1.4em
+}
+
+.btn:active, .btn:active:focus, .btn:focus, .btn:visited {
+  background-color: #fc427f;
+  box-shadow: none;
+  outline: 0;
+  color: #fff
+}
+
+.btn:hover, .btn:hover:active, .btn:hover:active:focus, .btn:hover:focus {
+  background-color: #111;
+  border-color: #111;
+  color: #fff
+}
+
+.btn:hover .fa, .btn:hover:active .fa, .btn:hover:active:focus .fa, .btn:hover:focus .fa {
+  color: #fff
+}
+
+.btn .fa {
+  margin-right: 4px;
+  color: #fc427f
+}
+
+.btn.btn-black, .btn.btn-black:active, .btn.btn-black:active:focus, .btn.btn-black:focus, .btn.btn-black:visited {
+  background-color: #111;
+  border-color: #111;
+  color: #fff
+}
+
+.btn.btn-black:hover, .btn.btn-black:hover:active, .btn.btn-black:hover:active:focus, .btn.btn-black:hover:focus {
+  background-color: #fc427f;
+  border-color: #fc427f;
+  color: #fff
+}
+
+.btn.btn-sm {
+  font-size: 0.8em;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 29px;
+  border-radius: 17px;
+  padding: 0 19px;
+}
+
+.artist {
+  width: 100%;
+  max-width: 278px;
+  margin: 0 auto;
+  position: relative
+}
+
+.artist+.artist {
+  margin-top: 50px
+}
+
+.player-main-block {
+  margin-bottom: 0;
+  background-color: #f7f7f7;
+  padding: 20px 40px
+}
+
+.album-art-block .track-meta-info {
+  position: static;
+  color: #111
+}
+
+.album-art-block .song-name {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.album-art-block .song-artist-album {
+  background-color: transparent;
+  background-image: none;
+  font-size: 1.4em;
+  font-weight: 300;
+  padding: 0
+}
+
+.album-art-block .album-art-space {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+  overflow: hidden;
+  margin-top: 10px
+}
+
+.album-art-block .album-art-space img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+.audio-controller-wrap {
+  padding: 0;
+  margin-top: 20px;
+  background-color: transparent
+}
+
+.audio-controller-wrap .input-range-block {
+  font-size: 1em;
+  font-weight: 400;
+  float: left;
+  width: 100%;
+  clear: both
+}
+
+.audio-controller-wrap .track-progress-wrap {
+  width: calc(100% - 5pc);
+  float: left
+}
+
+.audio-controller-wrap input[type=range] {
+  background-color: #e7e7e7!important;
+  padding: 0!important;
+  -webkit-appearance: none;
+  height: 6px
+}
+
+.audio-controller-wrap input[type=range].amplitude-song-slider {
+  margin-top: 3px
+}
+
+.audio-controller-wrap input[type=range].amplitude-song-slider::-webkit-slider-thumb {
+  background-color: #fc427f;
+  width: 3px;
+  -webkit-appearance: none
+}
+
+.audio-controller-wrap input[type=range]::-webkit-slider-runnable-track {
+  color: #fc427f;
+  height: 6px
+}
+
+.audio-controller-wrap input[type=range].amplitude-volume-slider {
+  width: calc(100% - 5pc);
+  display: inline-block;
+  float: left;
+  margin-top: 3px
+}
+
+.audio-controller-wrap .current-time, .audio-controller-wrap .duration {
+  width: 40px;
+  display: inline-block;
+  float: left;
+  line-height: 1
+}
+
+.audio-controller-wrap .duration {
+  text-align: right
+}
+
+.time-controller-block {
+  zoom: 1;
+  position: relative;
+  overflow: hidden
+}
+
+.control-container {
+  margin-top: 10px
+}
+
+.controller-common {
+  background-color: transparent;
+  margin: 0 9pt
+}
+
+.controller-common:before {
+  font-size: 1.2em;
+  color: #111
+}
+
+.amplitude-prev:before {
+  content: "\f049"
+}
+
+.amplitude-next:before {
+  content: "\f050"
+}
+
+.player-footer {
+  margin-top: 0
+}
+
+ .player-footer .volume-container {
+  width: 100%;
+  padding: 0
+}
+
+.volume-container i.fa {
+  position: static;
+  display: inline-block;
+  width: 40px;
+  float: left;
+  font-size: 1.2em
+}
+
+.volume-container i.fa.fa-volume-down {
+  text-align: right;
+  padding-right: 7px
+}
+
+.volume-container i.fa.fa-volume-up {
+  padding-left: 7px
+}
+
+.player-track-list-block {
+  border-right: 10px solid #f7f7f7!important
+}
+
+.slimScrollDiv .slimScrollBar {
+  width: 10px!important;
+  background-color: #fc427f!important;
+  border-radius: 5px!important
+}
+
+.slimScrollDiv .slimScrollRail {
+  width: 10px!important;
+  background-color: #f7f7f7!important
+}
+
+.player-track-list-block {
+  background-color: transparent;
+  padding: 0 30px 0 0
+}
+
+.amplitude-song-container {
+  display: list-item;
+  list-style-type: decimal;
+  list-style-position: inside;
+  font-size: 1.2em;
+  font-weight: 700;
+  background-color: #f7f7f7;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.amplitude-song-container:first-child {
+  margin-top: 0
+}
+
+.amplitude-song-container:last-child {
+  margin-bottom: 0
+}
+
+.amplitude-song-container .play-now {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 30px;
+  left: auto;
+  display: inline-block;
+  position: absolute
+}
+
+.amplitude-song-container .play-now .play-state {
+  display: none
+}
+
+.amplitude-song-container.amplitude-playing {
+  background-color: #fc427f;
+  color: #fff
+}
+
+.amplitude-song-container.amplitude-playing .song-title {
+  color: #fff
+}
+
+.amplitude-song-container.amplitude-playing .play-now .play-state {
+  display: block
+}
+
+.amplitude-song-container.amplitude-playing .play-now .normal-state {
+  display: none
+}
+
+.song-meta-data {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px
+}
+
+.song-meta-data .song-artist {
+  font-weight: 300;
+  font-size: 1.4em
+}
+
+.post {
+  margin-bottom: 30px;
+  background-color: #f7f7f7
+}
+
+.widget+.widget {
+  margin-top: 56px
+}
+
+.widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.widget ul>li {
+  display: block
+}
+
+.widget ul>li>a {
+  display: inline-block;
+  position: relative;
+  color: #111;
+  font-weight: 400
+}
+
+.widget ul>li>a:hover {
+  color: #fc427f
+}
+
+.widget ul>li>a:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  font-size: inherit;
+  margin-right: 7px
+}
+
+form {
+  position: relative
+}
+
+form p {
+  margin-bottom: 15px
+}
+
+form p:last-child {
+  margin-bottom: 0
+}
+
+
+
+button:focus, input:not([type=radio]):not([type=checkbox]):focus, textarea:focus {
+  outline: 0
+}
+
+textarea {
+  resize: none
+}
+.music-wrap{
+  color: #423333;
+}

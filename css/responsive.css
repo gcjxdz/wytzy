@@ -1,0 +1,59 @@
+@media(max-width:991px) {
+  .navbar-collapse.collapse {
+    display: none!important
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px
+  }
+  .navbar-nav>li {
+    float: none
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px
+  }
+  .collapse.in {
+    display: block!important
+  }
+  .col-xs-12 .artist {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    max-width: none;
+    float: left
+  }
+  .amplitude-song-container .play-now {
+    opacity: 0
+  }
+  .amplitude-song-container:hover .play-now {
+    opacity: 1
+  }
+  .amplitude-song-container {
+    font-size: 1.4em
+  }
+  .song-meta-data .song-artist {
+    font-weight: 300;
+    font-size: 1.2em
+  }
+}
+
+@media(max-width:639px) {
+  .col-xs-12 .artist {
+    width: 100%
+  }
+  .col-xs-12 .artist+.artist {
+    margin-top: 30px
+  }
+  .music-wrap .col-xs-6 {
+    width: 100%
+  }
+  .music-wrap .col-xs-6 .player-main-block {
+    max-width: 380px;
+    margin: 0 auto 30px
+  }
+  .music-wrap .col-xs-6 .slimScrollDiv {
+    max-width: 380px;
+    margin: 0 auto
+  }
+}
